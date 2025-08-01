@@ -1,0 +1,6 @@
+id,name,email,age,signup_date,is_active
+1,Alice Smith,alice@example.com,30,2023-01-15,true
+2,Bob Jones,bob.jones@example.com,25,2022-11-30,false
+3,Charlie Brown,charlie@brown.net,35,2023-05-10,true
+4,Debbie Stone,debbie.stone@example.org,28,2023-07-01,true
+5,Ethan Hunt,ethan@imf.gov,40,2021-09-12,false
