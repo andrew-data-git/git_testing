@@ -1,2 +1,2 @@
-todo:
-merge a branch
+TODO:
+merge branches
