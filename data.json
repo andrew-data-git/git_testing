@@ -1,0 +1,42 @@
+[
+  {
+    "id": 101,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year_published": 1925,
+    "genres": ["Classic", "Fiction"],
+    "available": true
+  },
+  {
+    "id": 102,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year_published": 1960,
+    "genres": ["Classic", "Historical", "Fiction"],
+    "available": false
+  },
+  {
+    "id": 103,
+    "title": "1984",
+    "author": "George Orwell",
+    "year_published": 1949,
+    "genres": ["Dystopian", "Science Fiction"],
+    "available": true
+  },
+  {
+    "id": 104,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year_published": 1951,
+    "genres": ["Classic", "Young Adult"],
+    "available": true
+  },
+  {
+    "id": 105,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year_published": 1932,
+    "genres": ["Science Fiction", "Dystopian"],
+    "available": false
+  }
+]
