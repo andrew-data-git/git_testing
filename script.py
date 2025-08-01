@@ -11,14 +11,16 @@ def extract_csv(filepath):
     df = pd.read_csv(filepath)
     return df
 
+
 def extract_json(filepath):
     """Read a csv into a pandas dataframe."""
     df = pd.read_json(filepath)
     return df
 
+
 def threshold_df(df, threshold=5):
     """For a given df, cut it to 10 lines long, otherwise pad it to ten lines with nulls.
-    
+
     Args:
         df (pd.DataFrame): the df to transform
         threshold (int): lines to coerce df to
@@ -31,17 +33,17 @@ def threshold_df(df, threshold=5):
         return df.head(threshold)
     else:
         pad_df = pd.DataFrame(
-            np.nan, 
-            index=range(line_count,threshold,1), 
-            columns=df.columns, 
-            )
+            np.nan,
+            index=range(line_count, threshold, 1),
+            columns=df.columns,
+        )
         return pd.concat([df, pad_df], axis=0, ignore_index=True)
-    
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     # pull data
-    csv_df = extract_csv('data.csv')
-    json_df = extract_json('data.json')
+    csv_df = extract_csv("data.csv")
+    json_df = extract_json("data.json")
 
     # transform to match requirement
     csv_t = threshold_df(csv_df)
